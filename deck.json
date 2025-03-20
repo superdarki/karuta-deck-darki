@@ -5,7 +5,7 @@
   	"author": "darki_",
 	"cards": [
 		{
-            "id": 0,
+            "id": 1,
 			"title": "slash",
 			"anime": "Witch from Mercury",
 			"numbering": "OP2",
@@ -15,7 +15,7 @@
 			"anilist_id": 155158
 		},
 		{
-            "id": 1,
+            "id": 2,
 			"title": "Say What?",
 			"anime": "[Oshi no Ko]",
 			"numbering": "OST",
@@ -25,7 +25,7 @@
 			"anilist_id": 166531
 		},
 		{
-            "id": 2,
+            "id": 3,
 			"title": "Sign is B (Ai solo)",
 			"anime": "[Oshi no Ko]",
 			"numbering": "OST",
@@ -35,7 +35,7 @@
 			"anilist_id": 150672
 		},
 		{
-            "id": 3,
+            "id": 4,
 			"title": "Ano Band",
 			"anime": "Bocchi the rock",
 			"numbering": "OST",
@@ -45,7 +45,7 @@
 			"anilist_id": 130003
 		},
 		{
-            "id": 4,
+            "id": 5,
 			"title": "yofukashi no uta",
 			"anime": "Call of the Night",
 			"numbering": "ED1",
@@ -55,7 +55,7 @@
 			"anilist_id": 141391
 		},
 		{
-            "id": 5,
+            "id": 6,
 			"title": "Shikisai",
 			"anime": "Spy x Family",
 			"numbering": "ED2",
@@ -65,7 +65,7 @@
 			"anilist_id": 158927
 		},
 		{
-            "id": 6,
+            "id": 7,
 			"title": "UN-APEX",
 			"anime": "Solo Leveling",
 			"numbering": "ED2",
@@ -75,7 +75,7 @@
 			"anilist_id": 176496
 		},
 		{
-            "id": 7,
+            "id": 8,
 			"title": "Dive back in time",
 			"anime": "Link Click",
 			"numbering": "OP1",
@@ -85,7 +85,7 @@
 			"anilist_id": 126403
 		},
 		{
-            "id": 8,
+            "id": 9,
 			"title": "Sing My Pleasure",
 			"anime": "Vivy's Fluorite Eye Song",
 			"numbering": "OP1",
@@ -95,7 +95,7 @@
 			"anilist_id": 128546
 		},
 		{
-            "id": 9,
+            "id": 10,
 			"title": "Yuusha",
 			"anime": "Frieren",
 			"numbering": "OP1",
@@ -105,7 +105,7 @@
 			"anilist_id": 154587
 		},
 		{
-            "id": 10,
+            "id": 11,
 			"title": "scaPEGoat",
 			"anime": "Seraph of the End",
 			"numbering": "ED1",
@@ -115,7 +115,7 @@
 			"anilist_id": 20829
 		},
 		{
-            "id": 11,
+            "id": 12,
 			"title": "Wrong World",
 			"anime": "GIRLS BAND CRY",
 			"numbering": "OP1",
@@ -125,7 +125,7 @@
 			"anilist_id": 164212
 		},
 		{
-            "id": 12,
+            "id": 13,
 			"title": "Red Fraction",
 			"anime": "Black Lagoon",
 			"numbering": "OP1",
@@ -135,7 +135,7 @@
 			"anilist_id": 889
 		},
 		{
-            "id": 13,
+            "id": 14,
 			"title": "Alive",
 			"anime": "Lycoris Recoil",
 			"numbering": "OP1",
@@ -145,7 +145,7 @@
 			"anilist_id": 143270
 		},
 		{
-            "id": 14,
+            "id": 15,
 			"title": "TOP",
 			"anime": "Tower of God",
 			"numbering": "OP1",
@@ -155,7 +155,7 @@
 			"anilist_id": 115230
 		},
 		{
-            "id": 15,
+            "id": 16,
 			"title": "Saraba",
 			"anime": "Blue Box",
 			"numbering": "OP2",
@@ -165,7 +165,7 @@
 			"anilist_id": 170942
 		},
 		{
-            "id": 16,
+            "id": 17,
 			"title": "Houkago no Liberty",
 			"anime": "We Never Learn: BOKUBEN",
 			"numbering": "ED2",
@@ -175,7 +175,7 @@
 			"anilist_id": 103900
 		},
 		{
-            "id": 17,
+            "id": 18,
 			"title": "Yakusoku",
 			"anime": "Horimiya",
 			"numbering": "ED1",
@@ -185,7 +185,7 @@
 			"anilist_id": 124080
 		},
 		{
-            "id": 18,
+            "id": 19,
 			"title": "Romantic ni Koi shitai",
 			"anime": "Girlfriend, Girlfriend",
 			"numbering": "OP2",
@@ -195,7 +195,7 @@
 			"anilist_id": 154692
 		},
 		{
-            "id": 19,
+            "id": 20,
 			"title": "Sparkle",
 			"anime": "Your Name",
 			"numbering": "OST",
@@ -205,7 +205,7 @@
 			"anilist_id": 21519
 		},
 		{
-            "id": 20,
+            "id": 21,
 			"title": "Hyakka Ryouran",
 			"anime": "The Apothecary Diaries",
 			"numbering": "OP3",
@@ -215,7 +215,7 @@
 			"anilist_id": 176301
 		},
 		{
-            "id": 21,
+            "id": 22,
 			"title": "Re:Re:",
 			"anime": "Erased",
 			"numbering": "OP1",
@@ -225,7 +225,7 @@
 			"anilist_id": 21234
 		},
 		{
-            "id": 22,
+            "id": 23,
 			"title": "Redo",
 			"anime": "Re:Zero",
 			"numbering": "OP1",
@@ -235,7 +235,7 @@
 			"anilist_id": 21355
 		},
 		{
-            "id": 23,
+            "id": 24,
 			"title": "Koko de Ikiteru",
 			"anime": "The Detective is Already Dead",
 			"numbering": "OP1",
@@ -245,7 +245,7 @@
 			"anilist_id": 128712
 		},
 		{
-            "id": 24,
+            "id": 25,
 			"title": "crossing field",
 			"anime": "Sword Art Online",
 			"numbering": "OP1",
@@ -255,7 +255,7 @@
 			"anilist_id": 11757
 		},
 		{
-            "id": 25,
+            "id": 26,
 			"title": "Hyadain no Kakakata☆Kataomoi - C",
 			"anime": "Nichijou",
 			"numbering": "OP1",
@@ -265,7 +265,7 @@
 			"anilist_id": 10165
 		},
 		{
-            "id": 26,
+            "id": 27,
 			"title": "Party!!",
 			"anime": "Delicious in Dungeon",
 			"numbering": "ED1",
@@ -275,7 +275,7 @@
 			"anilist_id": 153518
 		},
 		{
-            "id": 27,
+            "id": 28,
 			"title": "KISS OF DEATH",
 			"anime": "DARLING in the FRANXX",
 			"numbering": "OP1",
@@ -285,7 +285,7 @@
 			"anilist_id": 99423
 		},
 		{
-            "id": 28,
+            "id": 29,
 			"title": "I Can’t Hear It Now",
 			"anime": "Arcane",
 			"numbering": "OST",
@@ -295,7 +295,7 @@
 			"anilist_id": 0
 		},
 		{
-            "id": 29,
+            "id": 30,
 			"title": "Zen",
 			"anime": "ZENSHU",
 			"numbering": "OP1",
