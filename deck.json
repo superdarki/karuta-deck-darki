@@ -1,0 +1,38 @@
+{
+  "name": "Template deck",
+  "category": "KARUTA",
+  "type": "NORMAL",
+  "author": "Me",
+  "cards": [
+    {
+      "id": 0,
+      "anime": "Bocchi The Rock!",
+      "number": "OP 1",
+      "title": "Seishun Complex",
+      "authors": "Kessoku Band",
+      "image": "BTR.png",
+      "audio": "seishun_complex.mp3",
+      "anilist_id": 130003
+    },
+    {
+      "id": 1,
+      "anime": "Rascal Does Not Dream Of A Bunny Girl Senpai",
+      "number": "ED 1",
+      "title": "Fukashigi no Karute",
+      "authors": "Mai Sakurajima (Asami Seto), Tomoe Koga (Nao Touyama), Rio Futaba (Atsumi Tanezaki), Nodoka Toyohama (Maaya Uchida), Kaede Azusawara (Yurika Kubo), Shouko Makinohara (Inori Minase)",
+      "image": "bunny_girl.png",
+      "audio": "fukashigi_no_karute.mp3",
+      "anilist_id": 101291
+    },
+    {
+      "id": 2,
+      "anime": "Glass no Hana to Kowasu Sekai",
+      "number": "Trailer",
+      "title": "Sendan Life",
+      "authors": "Remo Prototype",
+      "image": "garakowa.png",
+      "audio": "sendan_life.mp3",
+      "anilist_id": 21042
+    }
+  ]
+}
