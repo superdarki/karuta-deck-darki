@@ -1,2 +1,2 @@
-# karuta-deck-template
-A template Karuta deck
+# Deck Karuta de DarKi !
+Mon magnifique deck karuta <3
