@@ -1,38 +1,308 @@
 {
-  "name": "Template deck",
-  "category": "KARUTA",
-  "type": "NORMAL",
-  "author": "Me",
-  "cards": [
-    {
-      "id": 0,
-      "anime": "Bocchi The Rock!",
-      "number": "OP 1",
-      "title": "Seishun Complex",
-      "authors": "Kessoku Band",
-      "image": "BTR.png",
-      "audio": "seishun_complex.mp3",
-      "anilist_id": 130003
-    },
-    {
-      "id": 1,
-      "anime": "Rascal Does Not Dream Of A Bunny Girl Senpai",
-      "number": "ED 1",
-      "title": "Fukashigi no Karute",
-      "authors": "Mai Sakurajima (Asami Seto), Tomoe Koga (Nao Touyama), Rio Futaba (Atsumi Tanezaki), Nodoka Toyohama (Maaya Uchida), Kaede Azusawara (Yurika Kubo), Shouko Makinohara (Inori Minase)",
-      "image": "bunny_girl.png",
-      "audio": "fukashigi_no_karute.mp3",
-      "anilist_id": 101291
-    },
-    {
-      "id": 2,
-      "anime": "Glass no Hana to Kowasu Sekai",
-      "number": "Trailer",
-      "title": "Sendan Life",
-      "authors": "Remo Prototype",
-      "image": "garakowa.png",
-      "audio": "sendan_life.mp3",
-      "anilist_id": 21042
-    }
-  ]
+	"name": "Deck de DarKi_",
+  	"category": "KARUTA",
+  	"type": "NORMAL",
+  	"author": "darki_",
+	"cards": [
+		{
+            "id": 0,
+			"title": "slash",
+			"anime": "Witch from Mercury",
+			"numbering": "OP2",
+			"authors": "yama",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=tsh7waq3Fyo",
+			"anilist_id": 155158
+		},
+		{
+            "id": 1,
+			"title": "Say What?",
+			"anime": "[Oshi no Ko]",
+			"numbering": "OST",
+			"authors": "B-Komachi",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=slmAemouUOg",
+			"anilist_id": 166531
+		},
+		{
+            "id": 2,
+			"title": "Sign is B (Ai solo)",
+			"anime": "[Oshi no Ko]",
+			"numbering": "OST",
+			"authors": "B-Komachi - Ai",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=Qlb28W3v9II",
+			"anilist_id": 150672
+		},
+		{
+            "id": 3,
+			"title": "Ano Band",
+			"anime": "Bocchi the rock",
+			"numbering": "OST",
+			"authors": "kessoku band",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=q-bCp4MxuYU",
+			"anilist_id": 130003
+		},
+		{
+            "id": 4,
+			"title": "yofukashi no uta",
+			"anime": "Call of the Night",
+			"numbering": "ED1",
+			"authors": "Creepy Nuts",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=F6_zbnfxoBA",
+			"anilist_id": 141391
+		},
+		{
+            "id": 5,
+			"title": "Shikisai",
+			"anime": "Spy x Family",
+			"numbering": "ED2",
+			"authors": "yama",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=E9Dru15yq9w",
+			"anilist_id": 158927
+		},
+		{
+            "id": 6,
+			"title": "UN-APEX",
+			"anime": "Solo Leveling",
+			"numbering": "ED2",
+			"authors": "TK",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=LXHA0Sv-qHM",
+			"anilist_id": 176496
+		},
+		{
+            "id": 7,
+			"title": "Dive back in time",
+			"anime": "Link Click",
+			"numbering": "OP1",
+			"authors": "BaishaJAWS",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=33YjUPqiQEo",
+			"anilist_id": 126403
+		},
+		{
+            "id": 8,
+			"title": "Sing My Pleasure",
+			"anime": "Vivy's Fluorite Eye Song",
+			"numbering": "OP1",
+			"authors": "Vivi (Vo. Kairi Yagi)",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=JqN4_mufE2U",
+			"anilist_id": 128546
+		},
+		{
+            "id": 9,
+			"title": "Yuusha",
+			"anime": "Frieren",
+			"numbering": "OP1",
+			"authors": "YOASOBI",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=QoGM9hCxr4k",
+			"anilist_id": 154587
+		},
+		{
+            "id": 10,
+			"title": "scaPEGoat",
+			"anime": "Seraph of the End",
+			"numbering": "ED1",
+			"authors": "SawanoHiroyuki[nZk], Yosh",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=sCTdrDZmAIM",
+			"anilist_id": 20829
+		},
+		{
+            "id": 11,
+			"title": "Wrong World",
+			"anime": "GIRLS BAND CRY",
+			"numbering": "OP1",
+			"authors": "TOGENASHI TOGEARI",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=MSmfAa_oSqE",
+			"anilist_id": 164212
+		},
+		{
+            "id": 12,
+			"title": "Red Fraction",
+			"anime": "Black Lagoon",
+			"numbering": "OP1",
+			"authors": "MELL",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=FM3JRDvthok",
+			"anilist_id": 889
+		},
+		{
+            "id": 13,
+			"title": "Alive",
+			"anime": "Lycoris Recoil",
+			"numbering": "OP1",
+			"authors": "ClariS",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=Vi-1402wYtI",
+			"anilist_id": 143270
+		},
+		{
+            "id": 14,
+			"title": "TOP",
+			"anime": "Tower of God",
+			"numbering": "OP1",
+			"authors": "Stray Kids",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=o7lqCcE4Lho",
+			"anilist_id": 115230
+		},
+		{
+            "id": 15,
+			"title": "Saraba",
+			"anime": "Blue Box",
+			"numbering": "OP2",
+			"authors": "Macaroni Empitsu",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=CoQ5-kT6FfM",
+			"anilist_id": 170942
+		},
+		{
+            "id": 16,
+			"title": "Houkago no Liberty",
+			"anime": "We Never Learn: BOKUBEN",
+			"numbering": "ED2",
+			"authors": "halca",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=DnM6O1uJu-s",
+			"anilist_id": 103900
+		},
+		{
+            "id": 17,
+			"title": "Yakusoku",
+			"anime": "Horimiya",
+			"numbering": "ED1",
+			"authors": "Friends",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=XQ9ZiRgnMW8",
+			"anilist_id": 124080
+		},
+		{
+            "id": 18,
+			"title": "Romantic ni Koi shitai",
+			"anime": "Girlfriend, Girlfriend",
+			"numbering": "OP2",
+			"authors": "Hikari Kodama",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=AIvBYOk3m58",
+			"anilist_id": 154692
+		},
+		{
+            "id": 19,
+			"title": "Sparkle",
+			"anime": "Your Name",
+			"numbering": "OST",
+			"authors": "Radwimps",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=-pHfPJGatgE",
+			"anilist_id": 21519
+		},
+		{
+            "id": 20,
+			"title": "Hyakka Ryouran",
+			"anime": "The Apothecary Diaries",
+			"numbering": "OP3",
+			"authors": "Lilas Ikuta",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=nqF3zctHjs0",
+			"anilist_id": 176301
+		},
+		{
+            "id": 21,
+			"title": "Re:Re:",
+			"anime": "Erased",
+			"numbering": "OP1",
+			"authors": "ASIAN KUNG-FU GENERATION",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=_v_Voe5KD1M",
+			"anilist_id": 21234
+		},
+		{
+            "id": 22,
+			"title": "Redo",
+			"anime": "Re:Zero",
+			"numbering": "OP1",
+			"authors": "Konomi Suzuki",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=pCN59hv-fIY",
+			"anilist_id": 21355
+		},
+		{
+            "id": 23,
+			"title": "Koko de Ikiteru",
+			"anime": "The Detective is Already Dead",
+			"numbering": "OP1",
+			"authors": "Mary, jon-YAKITORY",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=1wLrXM6TQFc",
+			"anilist_id": 128712
+		},
+		{
+            "id": 24,
+			"title": "crossing field",
+			"anime": "Sword Art Online",
+			"numbering": "OP1",
+			"authors": "LiSA",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=1aPOj0ERTEc",
+			"anilist_id": 11757
+		},
+		{
+            "id": 25,
+			"title": "Hyadain no Kakakata☆Kataomoi - C",
+			"anime": "Nichijou",
+			"numbering": "OP1",
+			"authors": "Hyadain",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=R1RVDAl5zUc",
+			"anilist_id": 10165
+		},
+		{
+            "id": 26,
+			"title": "Party!!",
+			"anime": "Delicious in Dungeon",
+			"numbering": "ED1",
+			"authors": "Ryokuoushoku Shakai",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=_xttUCocsAc",
+			"anilist_id": 153518
+		},
+		{
+            "id": 27,
+			"title": "KISS OF DEATH",
+			"anime": "DARLING in the FRANXX",
+			"numbering": "OP1",
+			"authors": "Mika Nakashima, Hyde",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=A4kLcDWBYcQ",
+			"anilist_id": 99423
+		},
+		{
+            "id": 28,
+			"title": "I Can’t Hear It Now",
+			"anime": "Arcane",
+			"numbering": "OST",
+			"authors": "Freya Ridings",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=uz1mjoGk1Yg",
+			"anilist_id": 0
+		},
+		{
+            "id": 29,
+			"title": "Zen",
+			"anime": "ZENSHU",
+			"numbering": "OP1",
+			"authors": "Band-Maid",
+			"image": "",
+			"audio": "https://www.youtube.com/watch?v=iRjRX1V_3go",
+			"anilist_id": 176273
+		}		
+	]
 }
