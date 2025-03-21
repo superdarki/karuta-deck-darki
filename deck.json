@@ -4,6 +4,7 @@
   	"type": "NORMAL",
   	"author": "darki_",
 	"description": "Mon magnifique deck karuta <3",
+	"prefix": "DKI",
 	"cards": [
 		{
             "id": 1,
