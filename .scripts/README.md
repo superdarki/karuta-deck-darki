@@ -6,7 +6,7 @@ Attention : Si le deck n'est pas dans le dossier parent aux scripts, utiliser la
 
 ### download-audio.py
 
-Dépendances : `pip install requests pydub yt-dlp` et ffmpeg (sur windows `winget install ffmpeg`, sur debian-like `apt install ffmpeg`)
+Dépendances : `pip install pyaudioop pydub yt-dlp` et ffmpeg (sur windows `winget install ffmpeg`, sur debian-like `apt install ffmpeg`)
 
 Utilisation : `python download-audio.py`  
 

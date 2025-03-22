@@ -67,7 +67,7 @@ jobs:
           restore-keys: pip-${{ runner.os }}-
 
       - name: Install Python dependencies
-        run: pip install --upgrade ffmpeg-python pydub yt-dlp
+        run: pip install --upgrade pyaudioop pydub yt-dlp
 
       - name: Run the script
         run: python .scripts/download-audio.py
