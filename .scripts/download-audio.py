@@ -1,30 +1,41 @@
-from pytubefix import YouTube
+import yt_dlp
 from pydub import AudioSegment, effects
-import io, json, os, sys
+import json, os, sys, tempfile
 
-def progress_function(chunk, file_handle, bytes_remaining):
-    current = ((chunk.filesize - bytes_remaining) / chunk.filesize)
-    percent = ('{0:.1f}').format(current*100)
-    progress = int(50*current)
-    status = '█' * progress + '-' * (50 - progress)
-    sys.stdout.write(' ↳ |{bar}| {percent}%\r'.format(bar=status, percent=percent))
-    sys.stdout.flush()
+def download_audio(url):
+    with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+        temp_path = temp_file.name
+    
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'outtmpl': f'{temp_path}.%(ext)s',
+        'quiet': True,
+    }
+    
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        try:
+            info = ydl.extract_info(url, download=True)
+            actual_file = f"{temp_path}.{info['ext']}"
+        except yt_dlp.utils.PostProcessingError as e:
+            print(f"Error in post-processing: {e}")
+            return None
+    
+    return actual_file
 
 def download_and_normalize_audio(url, path):
-    yt = YouTube(url, on_progress_callback=progress_function)
-    audio_stream = yt.streams.filter(only_audio=True).first()
-
-    audio_data = io.BytesIO()
-    audio_stream.stream_to_buffer(audio_data)
-    audio_data.seek(0)
-
-    audio = AudioSegment.from_file(audio_data, format="m4a")
-    normalized_audio = effects.normalize(audio)
-    file_path = path
-    normalized_audio[:120000].export(file_path, format="mp3")
+    temp_path = download_audio(url)
+    if not temp_path:
+        return None
     
-    print()
-    return file_path
+    try:
+        audio = AudioSegment.from_file(temp_path)
+        normalized_audio = effects.normalize(audio)
+        normalized_audio[:120000].export(path, format="mp3")
+    except Exception as e:
+        print(f"Error processing audio file: {e}")
+    
+    os.remove(temp_path)
+    return path
 
 path = os.environ.get('DECK_PATH', os.path.pardir)
 if not os.path.isabs(path):

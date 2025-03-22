@@ -6,7 +6,7 @@ path = os.environ.get('DECK_PATH', os.path.pardir)
 if not os.path.isabs(path):
     path = os.path.join(os.path.dirname(__file__), path)
 
-outpath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.pardir, os.path.pardir, 'Deck Ancien Format')
+outpath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.pardir, 'build')
 if not os.path.isabs(outpath):
     outpath = os.path.join(os.path.dirname(__file__), outpath)
 

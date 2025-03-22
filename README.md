@@ -4,6 +4,7 @@
 **Type :** NORMAL  
 
 Mon magnifique deck karuta <3  
+Uniquement des animes BANGER dans ce deck :)  
 
 **Couverture :**  
 <img src="cover.png" alt="Image de couverture" width="250"/>  
