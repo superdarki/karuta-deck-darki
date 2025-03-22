@@ -22,19 +22,14 @@ def download_audio(url):
     
     return actual_file
 
-def download_and_normalize_audio(url, path):
-    temp_path = download_audio(url)
-    if not temp_path:
-        return None
-    
+def normalize_audio(input, output):
     try:
-        audio = AudioSegment.from_file(temp_path)
+        audio = AudioSegment.from_file(input)
         normalized_audio = effects.normalize(audio)
-        normalized_audio[:120000].export(path, format="mp3")
+        normalized_audio[:120000].export(output, format="mp3")
     except Exception as e:
         print(f"Error processing audio file: {e}")
     
-    os.remove(temp_path)
     return path
 
 path = os.environ.get('DECK_PATH', os.path.pardir)
@@ -47,5 +42,19 @@ with open(os.path.join(path, 'deck.json'), "r") as file:
 print(f"Loaded {meta['name']}\n")
 
 for m in meta["cards"]:
-    print(f"Downloading {m['title']} ({m['anime']} - {m['numbering']})")
-    download_and_normalize_audio(m["audio_url"], os.path.join(path, 'Sounds', m["audio"]))
+    out = os.path.join(path, 'Sounds', m["audio"])
+    if "audio_url" in m: 
+        print(f"Downloading {m['title']} ({m['anime']} - {m['numbering']})")
+
+        temp_path = download_audio(m["audio_url"], )
+        if not temp_path:
+            print(f"Error while downloading {m['title']} ({m['anime']} - {m['numbering']})")
+        
+        normalize_audio(temp_path, out)
+        os.remove(temp_path)
+    else:
+        if os.path.isfile(out):
+            print(f"No download link provided, using exising file for {m['title']} ({m['anime']} - {m['numbering']})")
+            normalize_audio(out, out)
+        else:
+            print(f"ERROR: No download link provided and file does not exist for {m['title']} ({m['anime']} - {m['numbering']})")
