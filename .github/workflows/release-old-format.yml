@@ -24,7 +24,7 @@ jobs:
       run: python .scripts/new-to-old-convert.py
 
     - name: Create zip archive
-      run: zip -r deck.zip ./build/
+      run: zip -r deck.zip ./build/*
 
     - name: Create Release
       uses: softprops/action-gh-release@v1
