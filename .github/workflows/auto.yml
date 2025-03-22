@@ -1,9 +1,9 @@
-name: Download audio from youtube
+name: Scripts to automate the deck
 
 on:
   push:
     branches:
-      - main  # Change this if you want to trigger on another branch
+      - main
   pull_request:
     branches:
       - main
@@ -45,11 +45,29 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install ffmpeg
-        run: sudo apt update && sudo apt install -y ffmpeg
+      - name: Cache APT packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            /var/cache/apt
+            /var/lib/apt
+          key: apt-${{ runner.os }}-ffmpeg
+          restore-keys: apt-${{ runner.os }}-
 
-      - name: Install python dependencies
-        run: pip install requests pydub yt-dlp
+      - name: Install ffmpeg
+        run: |
+          sudo apt update
+          sudo apt install -y ffmpeg
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: pip-${{ runner.os }}-
+
+      - name: Install Python dependencies
+        run: pip install --upgrade ffmpeg-python pydub yt-dlp
 
       - name: Run the script
         run: python .scripts/download-audio.py
@@ -59,5 +77,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add Sounds
-          git commit -m "Download audio from youtube" || echo "No changes to commit"
+          git commit -m "Download audio from YouTube" || echo "No changes to commit"
           git push

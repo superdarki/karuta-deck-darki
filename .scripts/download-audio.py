@@ -1,6 +1,6 @@
 import yt_dlp
 from pydub import AudioSegment, effects
-import json, os, sys, tempfile
+import json, os, tempfile
 
 def download_audio(url):
     with tempfile.NamedTemporaryFile(delete=False) as temp_file:
