@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-readme:
+  download-audio:
     runs-on: ubuntu-latest
 
     steps:
