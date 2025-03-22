@@ -34,7 +34,7 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/04%20-%20Ano%20Band.png" alt="Bocchi the rock OST That band" width="250"/>  
 
-### [05 - yofukashi no uta](https://www.youtube.com/watch?v=F6_zbnfxoBA)
+### 05 - yofukashi no uta
 &emsp;**Anime :** [Call of the Night](https://anilist.co/anime/141391) - ED1  
 &emsp;**Artiste(s) :** Creepy Nuts  
 
@@ -112,7 +112,7 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/17%20-%20Houkago%20no%20Liberty.png" alt="We Never Learn: BOKUBEN ED2 Houkago no Liberty" width="250"/>  
 
-### [18 - Yakusoku](https://www.youtube.com/watch?v=fd1jD7-XX5g)
+### [18 - Yakusoku](https://www.youtube.com/watch?v=CK2roWD7i0Q)
 &emsp;**Anime :** [Horimiya](https://anilist.co/anime/124080) - ED1  
 &emsp;**Artiste(s) :** Friends  
 
