@@ -6,9 +6,9 @@ path = os.environ.get('DECK_PATH', os.path.pardir)
 if not os.path.isabs(path):
     path = os.path.join(os.path.dirname(__file__), path)
 
-outpath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.pardir, 'build')
+outpath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), os.path.pardir, 'build')
 if not os.path.isabs(outpath):
-    outpath = os.path.join(os.path.dirname(__file__), outpath)
+    outpath = os.path.join(os.curdir, outpath)
 
 with open(os.path.join(path, 'deck.json'), "r") as file:
     meta = json.load(file)
