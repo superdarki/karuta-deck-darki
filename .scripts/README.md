@@ -16,6 +16,12 @@ Dépendances : Aucune
 
 Utilisation : `python gen-readme.py`
 
+### gen-cards-pdf.py
+
+Dépendances : `pip install fpdf2`  
+
+Utilisation : `python gen-cards-pdf.py <destination folder>`  
+
 ### new-to-old-convert.py
 
 Dépendances : `pip install pillow numpy`
