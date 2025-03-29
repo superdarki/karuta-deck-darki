@@ -315,14 +315,14 @@
 		},
 		{
             "id": 29,
-			"title": "I Can't Hear It Now",
-			"anime": "Arcane",
-			"numbering": "OST",
-			"authors": "Freya Ridings",
-			"image": "29 - I Can't Hear It Now.png",
-			"audio": "arcane_ost_i-cant-hear-it-now.mp3",
-			"audio_url": "https://www.youtube.com/watch?v=uz1mjoGk1Yg",
-			"anilist_id": 0
+			"title": "escalate",
+			"anime": "NieR:Automata Ver1.1a",
+			"numbering": "OP1",
+			"authors": "Aimer",
+			"image": "29 - escalate.png",
+			"audio": "nier-automata-ver1.1a_op1_escalate.mp3",
+			"audio_url": "https://www.youtube.com/watch?v=Xcx6MVs2o8E",
+			"anilist_id": 145665
 		},
 		{
             "id": 30,
