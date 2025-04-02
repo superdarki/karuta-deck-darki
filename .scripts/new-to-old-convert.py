@@ -6,12 +6,12 @@ def valid_directory(path):
     if os.path.isdir(path): return path
     else: raise argparse.ArgumentTypeError(f"'{path}' is not a valid directory.")
 parser = argparse.ArgumentParser(description="Download and normalize the audio files for the deck")
-parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory", default=os.path.pardir)
+parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory", default=os.path.join(os.path.dirname(__file__), os.path.pardir))
 parser.add_argument("output path", type=valid_directory, help="Path to the output directory", default=os.path.join(os.path.dirname(__file__), os.path.pardir, 'build'))
 args = parser.parse_args()
 
 path = args.deck_path
-if not os.path.isabs(path): path = os.path.join(os.path.dirname(__file__), path)
+if not os.path.isabs(path): path = os.path.join(os.path.curdir, path)
 outpath = args.output_path
 if not os.path.isabs(outpath): outpath = os.path.join(os.curdir, outpath)
 
