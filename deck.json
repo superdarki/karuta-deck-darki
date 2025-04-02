@@ -250,14 +250,14 @@
 		},
 		{
             "id": 23,
-			"title": "Redo",
-			"anime": "Re:Zero",
+			"title": "<msg-op-name>",
+			"anime": "Mobile Suit Gundam GQuuuuuuX",
 			"numbering": "OP1",
-			"authors": "Konomi Suzuki",
-			"image": "23 - Redo.png",
-			"audio": "rezero_op1_redo.mp3",
-			"audio_url": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
-			"anilist_id": 21355
+			"authors": "",
+			"image": "23 - <msg-op-name>.png",
+			"audio": "msg-gquuuuuux_op1_<msg-op-name>.mp3",
+			"audio_url": "",
+			"anilist_id": 185213
 		},
 		{
             "id": 24,
@@ -294,14 +294,14 @@
 		},
 		{
             "id": 27,
-			"title": "Party!!",
-			"anime": "Delicious in Dungeon",
-			"numbering": "ED1",
-			"authors": "Ryokuoushoku Shakai",
-			"image": "27 - Party!!.png",
-			"audio": "delicious-in-dungeon_ed1_party.mp3",
-			"audio_url": "https://www.youtube.com/watch?v=jio_17jg980",
-			"anilist_id": 153518
+			"title": "Baby Baby Baby",
+			"anime": "Please Put Them On, Takamine-san",
+			"numbering": "OP1",
+			"authors": "Masami Okui, Bonjour Suzuki",
+			"image": "27 - Baby Baby Baby.png",
+			"audio": "takamine-san_op1_baby-baby-baby.mp3",
+			"audio_url": "https://www.youtube.com/watch?v=yv9J-H3CsKA",
+			"anilist_id": 179965
 		},
 		{
             "id": 28,

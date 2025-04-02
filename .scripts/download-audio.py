@@ -74,18 +74,18 @@ for m in meta["cards"]:
     fout = os.path.join(path, 'Sounds', m["audio"])
     fin = fout
     if (os.path.isfile(fout) and args.force) or not os.path.isfile(fout):
-        if "audio_url" in m: 
+        if "audio_url" in m and m["audio_url"]: 
             print(f"Downloading {m['title']} ({m['anime']} - {m['numbering']})")
 
             fin = download_audio(m["audio_url"])
             if not fin:
                 print(f"Error while downloading {m['title']} ({m['anime']} - {m['numbering']})")
 
-    if os.path.isfile(fin):  
-        print(f"Normalizing {m['title']} ({m['anime']} - {m['numbering']})")   
-        normalize_audio(fin, fout)
-        if fin != fout:
-            os.remove(fin)
-    else:
-        print(f"ERROR: No download link provided and file does not exist for {m['title']} ({m['anime']} - {m['numbering']})")
-    
+        if fin and os.path.isfile(fin):  
+            print(f"Normalizing {m['title']} ({m['anime']} - {m['numbering']})")   
+            normalize_audio(fin, fout)
+            if fin != fout:
+                os.remove(fin)
+        else:
+            print(f"ERROR: No download link provided for {m['title']} ({m['anime']} - {m['numbering']})")
+        

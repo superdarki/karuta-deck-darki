@@ -142,11 +142,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/22%20-%20ReRe.png" alt="Erased OP1 Re:Re:" width="250"/>  
 
-### [23 - Redo](https://www.youtube.com/watch?v=0Vwwr3VGsYg)
-&emsp;**Anime :** [Re:Zero](https://anilist.co/anime/21355) - OP1  
-&emsp;**Artiste(s) :** Konomi Suzuki  
+### [23 - <msg-op-name>]()
+&emsp;**Anime :** [Mobile Suit Gundam GQuuuuuuX](https://anilist.co/anime/185213) - OP1  
+&emsp;**Artiste(s) :**   
 
-<img src="Visuals/23%20-%20Redo.png" alt="Re:Zero OP1 Redo" width="250"/>  
+<img src="Visuals/23%20-%20<msg-op-name>.png" alt="Mobile Suit Gundam GQuuuuuuX OP1 <msg-op-name>" width="250"/>  
 
 ### [24 - Koko de Ikiteru](https://www.youtube.com/watch?v=GPG6l3P3-a8)
 &emsp;**Anime :** [The Detective is Already Dead](https://anilist.co/anime/128712) - OP1  
@@ -166,11 +166,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/26%20-%20Hyadain%20no%20Kakakata%20Kataomoi%20-%20C.png" alt="Nichijou OP1 Hyadain no Kakakata Kataomoi - C" width="250"/>  
 
-### [27 - Party!!](https://www.youtube.com/watch?v=jio_17jg980)
-&emsp;**Anime :** [Delicious in Dungeon](https://anilist.co/anime/153518) - ED1  
-&emsp;**Artiste(s) :** Ryokuoushoku Shakai  
+### [27 - Baby Baby Baby](https://www.youtube.com/watch?v=yv9J-H3CsKA)
+&emsp;**Anime :** [Please Put Them On, Takamine-san](https://anilist.co/anime/179965) - OP1  
+&emsp;**Artiste(s) :** Masami Okui, Bonjour Suzuki  
 
-<img src="Visuals/27%20-%20Party!!.png" alt="Delicious in Dungeon ED1 Party!!" width="250"/>  
+<img src="Visuals/27%20-%20Baby%20Baby%20Baby.png" alt="Please Put Them On, Takamine-san OP1 Baby Baby Baby" width="250"/>  
 
 ### [28 - KISS OF DEATH](https://www.youtube.com/watch?v=A4kLcDWBYcQ)
 &emsp;**Anime :** [DARLING in the FRANXX](https://anilist.co/anime/99423) - OP1  
