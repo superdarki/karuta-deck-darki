@@ -1,26 +1,48 @@
 import yt_dlp
 from pydub import AudioSegment, effects
-import json, os, tempfile, argparse
+import json, os, tempfile, argparse, requests
 
 def download_audio(url):
-    with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-        temp_path = temp_file.name
-    
+    if url.lower().endswith('.mp3'):
+        return download_direct_mp3(url)
+    else:
+        return download_youtube(url)
+
+def download_youtube(url):
+    with tempfile.NamedTemporaryFile(delete=False) as temp_file: temp_path = temp_file.name
+
     ydl_opts = {
         'format': 'bestaudio/best',
         'outtmpl': f'{temp_path}.%(ext)s',
         'quiet': True,
     }
-    
+
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
             info = ydl.extract_info(url, download=True)
             actual_file = f"{temp_path}.{info['ext']}"
+            return actual_file
         except yt_dlp.utils.PostProcessingError as e:
             print(f"Error in post-processing: {e}")
             return None
-    
-    return actual_file
+        except yt_dlp.DownloadError as e:
+            print(f"Download error: {e}")
+            return None
+
+def download_direct_mp3(url):
+    try:
+        response = requests.get(url, stream=True)
+        response.raise_for_status()  # Raise error for failed requests
+
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as temp_file:
+            for chunk in response.iter_content(chunk_size=1024):
+                temp_file.write(chunk)
+
+        return temp_file.name  # Return the downloaded MP3 file path
+
+    except requests.RequestException as e:
+        print(f"Error downloading MP3 file: {e}")
+        return None
 
 def normalize_audio(input, output):
     try:
