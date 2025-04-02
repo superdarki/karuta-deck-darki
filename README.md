@@ -34,7 +34,7 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/04%20-%20Ano%20Band.png" alt="Bocchi the rock OST That band" width="250"/>  
 
-### 05 - yofukashi no uta
+### [05 - yofukashi no uta](https://naedist.animemusicquiz.com/ybewo7.mp3)
 &emsp;**Anime :** [Call of the Night](https://anilist.co/anime/141391) - ED1  
 &emsp;**Artiste(s) :** Creepy Nuts  
 
