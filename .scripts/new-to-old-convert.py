@@ -1,14 +1,19 @@
 from PIL import Image
 import numpy as np
-import os, json, re, shutil, sys
+import os, json, re, shutil, argparse
 
-path = os.environ.get('DECK_PATH', os.path.pardir)
-if not os.path.isabs(path):
-    path = os.path.join(os.path.dirname(__file__), path)
+def valid_directory(path):
+    if os.path.isdir(path): return path
+    else: raise argparse.ArgumentTypeError(f"'{path}' is not a valid directory.")
+parser = argparse.ArgumentParser(description="Download and normalize the audio files for the deck")
+parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory", default=os.path.pardir)
+parser.add_argument("output path", type=valid_directory, help="Path to the output directory", default=os.path.join(os.path.dirname(__file__), os.path.pardir, 'build'))
+args = parser.parse_args()
 
-outpath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), os.path.pardir, 'build')
-if not os.path.isabs(outpath):
-    outpath = os.path.join(os.curdir, outpath)
+path = args.deck_path
+if not os.path.isabs(path): path = os.path.join(os.path.dirname(__file__), path)
+outpath = args.output_path
+if not os.path.isabs(outpath): outpath = os.path.join(os.curdir, outpath)
 
 with open(os.path.join(path, 'deck.json'), "r") as file:
     meta = json.load(file)

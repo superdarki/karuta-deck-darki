@@ -1,8 +1,14 @@
-import json, os
+import json, os, argparse
 
-path = os.environ.get('DECK_PATH', os.path.pardir)
-if not os.path.isabs(path):
-    path = os.path.join(os.path.dirname(__file__), path)
+def valid_directory(path):
+    if os.path.isdir(path): return path
+    else: raise argparse.ArgumentTypeError(f"'{path}' is not a valid directory.")
+parser = argparse.ArgumentParser(description="Download and normalize the audio files for the deck")
+parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory", default=os.path.pardir)
+args = parser.parse_args()
+
+path = args.deck_path
+if not os.path.isabs(path): path = os.path.join(os.path.dirname(__file__), path)
 
 with open(os.path.join(path, 'deck.json'), "r") as file:
     meta = json.load(file)
