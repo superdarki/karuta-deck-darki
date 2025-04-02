@@ -178,11 +178,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/28%20-%20KISS%20OF%20DEATH.png" alt="DARLING in the FRANXX OP1 KISS OF DEATH" width="250"/>  
 
-### [29 - I Can't Hear It Now](https://www.youtube.com/watch?v=uz1mjoGk1Yg)
-&emsp;**Anime :** [Arcane](https://anilist.co/anime/0) - OST  
-&emsp;**Artiste(s) :** Freya Ridings  
+### [29 - escalate](https://www.youtube.com/watch?v=Xcx6MVs2o8E)
+&emsp;**Anime :** [NieR:Automata Ver1.1a](https://anilist.co/anime/145665) - OP1  
+&emsp;**Artiste(s) :** Aimer  
 
-<img src="Visuals/29%20-%20I%20Can't%20Hear%20It%20Now.png" alt="Arcane OST I Can't Hear It Now" width="250"/>  
+<img src="Visuals/29%20-%20escalate.png" alt="NieR:Automata Ver1.1a OP1 escalate" width="250"/>  
 
 ### [30 - Zen](https://www.youtube.com/watch?v=oygsxvHtU74)
 &emsp;**Anime :** [ZENSHU](https://anilist.co/anime/176273) - OP1  
