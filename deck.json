@@ -250,13 +250,13 @@
 		},
 		{
             "id": 23,
-			"title": "<msg-op-name>",
+			"title": "Plazma",
 			"anime": "Mobile Suit Gundam GQuuuuuuX",
 			"numbering": "OP1",
-			"authors": "",
-			"image": "23 - <msg-op-name>.png",
-			"audio": "msg-gquuuuuux_op1_<msg-op-name>.mp3",
-			"audio_url": "",
+			"authors": "Kenshi Yonezu",
+			"image": "23 - Plazma.png",
+			"audio": "msg-gquuuuuux_op1_plazma.mp3",
+			"audio_url": "https://www.youtube.com/watch?v=dcxhZTb_6zs",
 			"anilist_id": 185213
 		},
 		{
