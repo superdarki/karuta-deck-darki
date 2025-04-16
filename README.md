@@ -142,11 +142,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/22%20-%20ReRe.png" alt="Erased OP1 Re:Re:" width="250"/>  
 
-### [23 - <msg-op-name>]()
+### [23 - Plazma](https://www.youtube.com/watch?v=dcxhZTb_6zs)
 &emsp;**Anime :** [Mobile Suit Gundam GQuuuuuuX](https://anilist.co/anime/185213) - OP1  
-&emsp;**Artiste(s) :**   
+&emsp;**Artiste(s) :** Kenshi Yonezu  
 
-<img src="Visuals/23%20-%20<msg-op-name>.png" alt="Mobile Suit Gundam GQuuuuuuX OP1 <msg-op-name>" width="250"/>  
+<img src="Visuals/23%20-%20Plazma.png" alt="Mobile Suit Gundam GQuuuuuuX OP1 Plazma" width="250"/>  
 
 ### [24 - Koko de Ikiteru](https://www.youtube.com/watch?v=GPG6l3P3-a8)
 &emsp;**Anime :** [The Detective is Already Dead](https://anilist.co/anime/128712) - OP1  
