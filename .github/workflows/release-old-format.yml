@@ -24,7 +24,7 @@ jobs:
       run: python .scripts/new-to-old-convert.py
     
     - name: Generate the printable pdf
-      run: python .scripts/gen-cards-pdf.py .
+      run: python .scripts/gen-cards-pdf.py --output-path .
 
     - name: Create zip archive
       run: (cd build && zip -r ../deck.zip .)

@@ -1,5 +1,6 @@
 from fpdf import FPDF
 import os, json, argparse
+from pathlib import Path
 
 CARD_SIZE = (69, 94)  # in mm (size of the card with the bleed line)
 
@@ -16,10 +17,8 @@ def parse_id_list(value):
         raise argparse.ArgumentTypeError("Include list must be a comma-separated list of integers.")
 
 parser = argparse.ArgumentParser(description="Generate PDF of cards from deck")
-parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory",
-                    default=os.path.join(os.path.dirname(__file__), os.path.pardir))
-parser.add_argument("output_path", type=valid_directory, help="Path to the output directory",
-                    default=os.path.join(os.path.dirname(__file__), os.path.pardir, 'build'))
+parser.add_argument("--deck-path", type=valid_directory, help="Path to the deck directory", default=os.path.join(os.path.dirname(__file__), os.path.pardir))
+parser.add_argument("--output-path", type=Path, help="Path to the output directory", default=os.path.join(os.path.dirname(__file__), os.path.pardir, 'build'))
 parser.add_argument("--include", type=parse_id_list, help="Comma-separated list of card IDs to include", default=None)
 
 args = parser.parse_args()
