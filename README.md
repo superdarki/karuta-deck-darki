@@ -154,11 +154,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/24%20-%20Koko%20de%20Ikiteru.png" alt="The Detective is Already Dead OP1 Koko de Ikiteru" width="250"/>  
 
-### [25 - crossing field](https://www.youtube.com/watch?v=1oOBjyOKu2o)
-&emsp;**Anime :** [Sword Art Online](https://anilist.co/anime/11757) - OP1  
-&emsp;**Artiste(s) :** LiSA  
+### [25 - Watch me!](https://www.youtube.com/watch?v=a_NB6QkfzAM)
+&emsp;**Anime :** [Witch Watch](https://anilist.co/anime/180367) - OP1  
+&emsp;**Artiste(s) :** YOASOBI  
 
-<img src="Visuals/25%20-%20crossing%20field.png" alt="Sword Art Online OP1 crossing field" width="250"/>  
+<img src="Visuals/25%20-%20Watch%20Me.png" alt="Witch Watch OP1 Watch me!" width="250"/>  
 
 ### [26 - Hyadain no Kakakata Kataomoi - C](https://www.youtube.com/watch?v=qUk1ZoCGqsA)
 &emsp;**Anime :** [Nichijou](https://anilist.co/anime/10165) - OP1  
