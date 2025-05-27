@@ -118,11 +118,11 @@ Uniquement des animes BANGER dans ce deck :)
 
 <img src="Visuals/dki_horimiya_ed1_yakusoku.png" alt="Horimiya ED1 Yakusoku" width="250"/>  
 
-### [19 - Romantic ni Koi shitai](https://www.youtube.com/watch?v=KguhiQwYe6U)
-&emsp;**Anime :** [Girlfriend, Girlfriend](https://anilist.co/anime/154692) - OP2  
-&emsp;**Artiste(s) :** Hikari Kodama  
+### [19 - Ready to Rock](https://www.youtube.com/watch?v=yvQJMvms-ok)
+&emsp;**Anime :** [Rock is a Lady's Modesty](https://anilist.co/anime/179694) - OP1  
+&emsp;**Artiste(s) :** BAND-MAID  
 
-<img src="Visuals/dki_girlfriend-girlfriend_op2_romantic-ni-koi-shitai.png" alt="Girlfriend, Girlfriend OP2 Romantic ni Koi shitai" width="250"/>  
+<img src="Visuals/dki_rock-is-a-ladys-modesty_op1_ready-to-rock.png" alt="Rock is a Lady's Modesty OP1 Ready to Rock" width="250"/>  
 
 ### [20 - Sparkle](https://www.youtube.com/watch?v=a2GujJZfXpg)
 &emsp;**Anime :** [Your Name](https://anilist.co/anime/21519) - OST  
