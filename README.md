@@ -146,7 +146,7 @@ Uniquement des animes BANGER dans ce deck :)
 &emsp;**Anime :** [Mobile Suit Gundam GQuuuuuuX](https://anilist.co/anime/185213) - OP1  
 &emsp;**Artiste(s) :** Kenshi Yonezu  
 
-<img src="Visuals/23%20-%20Plazma.png" alt="Mobile Suit Gundam GQuuuuuuX OP1 Plazma" width="250"/>  
+<img src="Visuals/dki_mobile-suit-gundam-gquuuuuux_op1_plazma.png" alt="Mobile Suit Gundam GQuuuuuuX OP1 Plazma" width="250"/>  
 
 ### [24 - Koko de Ikiteru](https://www.youtube.com/watch?v=GPG6l3P3-a8)
 &emsp;**Anime :** [The Detective is Already Dead](https://anilist.co/anime/128712) - OP1  
