@@ -1,4 +1,4 @@
-# Deck DarKi_
+# Kessoku Deck
 **Auteur :** darki_  
 **Categorie :** KARUTA  
 **Type :** NORMAL  
